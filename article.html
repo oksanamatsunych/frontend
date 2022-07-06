@@ -21,7 +21,9 @@
     <h1>
         I Created a Developer Rap Video - Here's What I Learned
     </h1>
-    <picture> 
+    <!-- FIXME picture should not be used just for wrapping image. We need to have <source /> tag here -->
+    <picture>
+
         <img src="./images/image.png" alt="work">
     </picture>
 
@@ -32,6 +34,9 @@
     <p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt</p>
     <table>
         <thead>
+        <!-- FIXME <tr> is missed -->
+            <!-- FIXME <th> should be used within thead  -->
+            <!-- FIXME <strong> should not be used here -->
             <td><strong>First</strong></td>
             <td><strong>Last</strong></td>
             <td><strong>Handle</strong></td>
