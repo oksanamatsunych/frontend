@@ -1,0 +1,62 @@
+td {
+    border-right: 1px solid #DFF1F0;
+}
+thead {
+  background-color: #DFF1F0;
+}
+/* 1  */
+tr { 
+  background-color: #F2F8F7;
+}
+
+/* 2  + */
+
+
+/* selector - look for element */
+/* ruleName - category of style */
+/* ruleValue - value of style */
+/* 
+[selector] {
+    [ruleName]: [ruleValue]
+} 
+*/
+
+tr {
+  background-color: crimson;
+}
+
+tbody tr { 
+    background-color: yellow;
+}
+
+table {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: block;
+    background-color: aquamarine;
+    min-height: 40px;
+    height: auto;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    min-height: 465px;
+    background-color: #F2F8F7;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 856px 361px;
+    grid-gap: 80px;
+    margin: 0 auto;
+    max-width: 1297px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
