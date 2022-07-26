@@ -51,9 +51,14 @@ body {
 .author-image {
     width: 80px;
     height: 67px;
-    border-image: round;
+    border-radius: 50%;
 }
 
+.author {
+    display: grid;
+    grid-template-columns: 90px 1fr ;
+    grid-gap: 20px;
+}
 
 tr {
     background-color: #DFF1F0;
@@ -90,7 +95,7 @@ padding-bottom: 65px;
 .article-block h1 {
     margin-bottom: 20px;
     size: 56px;
-    color: aquamarine;
+    color: black;
 }
 
 .article-block p + h2 {
