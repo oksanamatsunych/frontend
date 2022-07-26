@@ -1,38 +1,111 @@
-header {
-    display: block;
-    background-color: #E8F3F3;
-    min-height: 70px;
-    max-height: auto;
-    min-width: 1600px;
-    max-width: auto;
+
+@font-face {
+    font-family: "Noto";
+    src: url("/fonts/NotoSans-Bold.ttf") format("truetype");
+    font-weight: bold;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 856px 361px;
-    grid-gap: 80px;
-    max-width: 1297px;
-    margin-top: 80px;
-    margin-bottom: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
+@font-face {
+    font-family: "Noto";
+    src: url("/fonts/NotoSans-Regular.ttf") format("truetype");
+    font-weight: normal;
 }
 
-footer {
-    display:block;
-    background-color: #DFF1F0;
-    min-height: 435px;
-    min-width: 1600px;
-    max-width: auto;
+@font-face {
+    font-family: "Noto";
+    src: url("/fonts/NotoSans-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic 
+}
 
+body {
+    font-family: "Noto";
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 140%;
+}
+
+p, td, th, li {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%; /* 22.5px or 1.5 */
+}
+
+img { 
+    width: 400px;
+}
+
+td {
+    border-right: 1px solid #DFF1F0;
+}
+thead {
+  background-color: #DFF1F0;
+}
+/* 1  */
+tr { 
+  background-color: #F2F8F7;
+}
+
+/* 2  + */
+
+
+/* selector - look for element */
+/* ruleName - category of style */
+/* ruleValue - value of style */
+/* 
+[selector] {
+    [ruleName]: [ruleValue]
+} 
+*/
+
+tr {
+  background-color: crimson;
+}
+
+tbody tr { 
+    background-color: yellow;
+}
+
+table {
+    display: none;
 }
 
 img {
     width: 100%;
 }
 
-tr {
-    background-color: #DFF1F0;
-   
+header {
+    display: block;
+    background-color: aquamarine;
+    min-height: 40px;
+    height: auto;
 }
 
+footer {
+    width: 100%;
+    height: auto;
+    min-height: 465px;
+    background-color: #F2F8F7;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 856px 361px;
+    grid-gap: 80px;
+    margin: 0 auto;
+    max-width: 1297px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
