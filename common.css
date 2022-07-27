@@ -143,19 +143,19 @@ table {
 
 @font-face {
     font-family: "Noto";
-    src: url(../Fonts/NotoSans-ExtraBold.ttf) format(truetype);
+    src: url("./Fonts/NotoSans-ExtraBold.ttf") format("truetype");
     font-weight:bold;
 }
 
 @font-face {
     font-family: "Noto";
-    src: url(../Fonts/NotoSans-Regular.ttf) format(truetype);
+    src: url("./Fonts/NotoSans-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Noto";
-    src: url(../Fonts/NotoSans-CondensedExtraLightItalic.ttf) format(truetype);
+    src: url("./Fonts/NotoSans-CondensedExtraLightItalic.ttf") format("truetype");
     font-weight: lighter;
     font-style: italic;
 }
