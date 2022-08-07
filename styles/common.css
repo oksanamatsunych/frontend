@@ -355,9 +355,9 @@ table {
     width: auto;
 }
 .video__item{
-    margin-top: 50px;
+    margin-top: 30px;
     display:flex;
-    width: 313px;
+    width: 413px;
     height: 502px;
     flex-direction: column;
     justify-content:space-between;
