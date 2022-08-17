@@ -7,22 +7,22 @@
 
 
 <body>
-    <header class="header">
+    <div class="header">
         <div class="header__content">
             <section class="links">
                 <div class="links__wrapper">
-                    <p class="links__item"> Homepages <img src="../symbols/chevron.svg" width="7" height="3"> </p>
+                    <p> Homepages <img src="../symbols/chevron.svg" width="7" height="3"> </p>
                     <ul class="links__list">
-                        <a class="links__item" href="/homepage-1.html">Homepage-1</a>
-                        <a class="links__item" href="/homepage-2.html">Homepage-2</a>
-                        <a cless="links__item" href="/homepage-3.html">Homepage-3</a>
+                      <li> <a class="links__item" href="/homepage-1.html">Homepage-1</a></li>
+                      <li><a class="links__item" href="/homepage-2.html">Homepage-2</a></li>
+                      <li><a cless="links__item" href="/homepage-3.html">Homepage-3</a></li>
                     </ul>
                 </div>
 
-                <a class="links__item" href="/about.html">About</a>
-
+                <a class="links" href="/about.html">About</a>
+              
                 <div class="links__wrapper">
-                    <p class="links__item"> Categories <img src="../symbols/chevron.svg" width="7" height="3"> </p>
+                    <p> Categories <img src="../symbols/chevron.svg" width="7" height="3"> </p>
                     <ul class="links__list">
                         <a class="links__item" href="/travel.html">Travel</a>
                         <a cless="links__item" href="/lifestyle.html">Lifestyle</a>
@@ -33,14 +33,15 @@
                 </div>
 
                 <div class="links__wrapper">
-                    <p class="links__item"> Pages <img src="../symbols/chevron.svg" width="7" height="3"> </p>
+                    <p> Pages <img src="../symbols/chevron.svg" width="7" height="3"> </p>
                     <ul class="links__list">
                         <a class="links__item" href="/page-1.html">Page-1</a>
                         <a class="links__item" href="/page-2.html">Page-2</a>
                         <a class="links__item" href="/page-3.html"> Page-3</a>
                     </ul>
                 </div>
-       </section>
+            </section>
+      
        <a class="site-logo" href="../index.html">
            <img class="site-logo__image" src="../symbols/logo.png" />
        </a>
@@ -54,7 +55,7 @@
            <a class="action-list__item" href="/contact.html">Contact</a>
        </section>
     </div>
-    </header>
+</div>
 
     <main>
         <article class="article-block">
@@ -109,12 +110,34 @@
         <p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum</p>
    
     <h2>I Created a Developer Rap Video</h2>
-    <p>
-        Step 1
-    </p>
-    <h3>
-        Title Goes Here
-    </h3>
+    <section class="steps__item">
+        <button class="button active" step-tab="1">Step 1</button>
+        <button class="button" step-tab="2">Step 2</button>
+        <button class="button" step-tab="3">Step 3</button>
+        <div class="view active" step-view="1">
+            <h2>1Title goes here</h2>
+            <p>
+                Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. 
+            </p>
+          </div>
+
+          <div class="view active" step-view="2">
+            <h2>2Title goes here</h2>
+            <p>
+                Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. 
+            </p>
+          </div>
+
+          <div class="view active" step-view="3">
+            <h2>3Title goes here</h2>
+            <p>
+                Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. 
+            </p>
+          </div>
+
+          <script src="../master.js"></script>
+
+</section>
     <p>Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once. We have a saboteur aboard. We know you’re dealing in stolen ore. But I wanna talk about the assassination attempt on Lieutenant Worf. </p>
 
         <h3> <span class="aside-title"> See Related </span> Posts </h3>
