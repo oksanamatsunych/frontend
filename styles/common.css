@@ -6,39 +6,56 @@
 .header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     background-color: #E8F3F3;
-    min-height: 70px;
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-  
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 .header__content {
-   display: grid;
-   grid-template-columns: 1fr 120px 1fr;
-   grid-gap: 10px;
-   width: auto;
-   max-width: 1600px;
-   height: auto;
-   min-height: 70px;
-   align-items:center;
-   position:relative;
+    display: grid;
+    grid-template-columns: 1fr 120px 1fr;
+    grid-gap: 10px;
+    width: 1600px;
+    height: auto;
+    min-height: 70px;
+    align-items:center;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+.header__content .links{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.links__wrapper{
+    width: auto;
+    margin: 20px;
+    position: relative;
 }
 
 .links__list {
+    display:none;
     position: absolute;
-    left: 0;
-    top: 0;
     width: 100px;
     height: 100%;
 }
 
-.action-list__item {
+.links__wrapper:hover .links__list{
+    display:flex;
+    flex-direction: column;
+}
+
+.header__content .action-list {
     display: flex;
     justify-content: flex-end;
+    gap: 30px;
     flex-direction: row;
+    text-decoration: none;
+    color: black;
 }
 
 main {
@@ -67,6 +84,7 @@ footer {
 }
 
 body {
+    min-height: 5000px;
     font-family: "Noto";
 }
 
