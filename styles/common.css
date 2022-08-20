@@ -398,3 +398,19 @@ table {
     height: 262px;
 
 }
+
+.faq__main {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 746px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.faq__item-header {
+    color: #222222;
+    font-weight: bold;
+}
+
